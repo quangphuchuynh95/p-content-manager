@@ -1,0 +1,10 @@
+version: "3"
+services:
+  database:
+    image: 'postgres'
+    environment:
+      - POSTGRES_DB=pcm
+      - POSTGRES_USER=pcm
+      - POSTGRES_PASSWORD=pcm
+    ports:
+      - "5432:5432"

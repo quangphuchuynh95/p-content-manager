@@ -1,0 +1,19 @@
+{
+    "name": "quangphuc/p-content-manager",
+    "type": "library",
+    "require": {
+        "php": "^7.4|8.0",
+        "quangphuc/query-factory": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quangphuc\\PContentManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Huỳnh Quang Phúc",
+            "email": "quangphuc.huynh95@gmail.com"
+        }
+    ]
+}

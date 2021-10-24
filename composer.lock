@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "868f6a3040c2a1cf6cf5c9a9d7b063bd",
+    "packages": [
+        {
+            "name": "quangphuc/query-factory",
+            "version": "1.0.34",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quangphuchuynh95/query-factory.git",
+                "reference": "8bad7ffa503e2178aca6ef4b7b706905de925ae7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quangphuchuynh95/query-factory/zipball/8bad7ffa503e2178aca6ef4b7b706905de925ae7",
+                "reference": "8bad7ffa503e2178aca6ef4b7b706905de925ae7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/QueryFactoryHelper.php"
+                ],
+                "psr-4": {
+                    "Quangphuc\\QueryFactory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Huỳnh Quang Phúc",
+                    "email": "quangphuc.huynh95@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/quangphuchuynh95/query-factory/issues",
+                "source": "https://github.com/quangphuchuynh95/query-factory/tree/1.0.34"
+            },
+            "time": "2021-09-14T06:21:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
